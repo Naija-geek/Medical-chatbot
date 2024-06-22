@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background:#fff;
+    height:100vh;
+    font-family:"outfit"
+}
+
+.container{
+    height:100%;
+    display:flex;
+}
+
+.chatWindow{
+    width:100%;
+    margin:5rem;
+    display:flex;
+    justify-content: center;
+}
+
+.chatWindoow .startContent{
+    min-width:830px;
+}
+
+.chatWindow .startContent h1{
+    font-size:3.5rem;
+    line-height:4rem;
+    letter-spacing:normal;
+    font-weight:500;
+    letter-spacing:-0.03em;
+    margin-top:18px;
+}
+
+.chatWindow .startContent h1 .brandHello{
+     background: linear-gradient(
+        74deg,
+        #4285f4 0,
+        #9b72cb 9%,
+        #d96570 20%,
+        #d96570 24%,
+        #9b72cb 35%,
+        #4285f4 44%,
+        #9b72cb 50%,
+        #d96570 56%,
+        #fff 75%,
+        #fff 100%,
+     );
+     background-size:400% 100%;
+     position:relative;
+     display:inline-block;
+     color:transparent;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.chatWindow .startContent h1 .brandQuestion{
+    color:#c4c7c5;
+}
+
+.chatWindow .startContent ul{
+    display:inline-flex;
+    width:830px;
+    margin-top:50px;
+}
+
+.chatWindow .startContent ul li{
+    margin:10px;
+    width:10px;
+    border-radius:10px;
+    background:#f0f4f9;
+    cursor:pointer;
+}
+
+
+
+

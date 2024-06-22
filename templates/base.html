@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="/static/style.css"> -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <p>Medical chatbot</p>
+                <p></p>
+                <div class="chatbox__image--header">
+                    <img src="data:image/jpeg;base64,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" alt="image">
+                </div>
+            </div>
+            <div class="chatbox__messages">
+
+            </div>
+            <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message..." id="message-input">
+                    <div class="typing">
+                        <span class="typing__bullet"></span>
+                        <span class="typing__bullet"></span>
+                        <span class="typing__bullet"></span>
+                    </div>
+                    <button class="chatbox__send--footer send__button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>  
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
