@@ -132,7 +132,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 15px 20px;
-    height:500px;
+    max-height:500px;
 }
 .chatbox__header p{
     font-size: 3.2rem;
