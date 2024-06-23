@@ -338,3 +338,12 @@ body {
       transform: translateY(0);
     }
   }
+
+
+
+@media screen and (min-width: 720px) {
+ .chatbox__support {
+    width:100%;
+     height:100%;
+  }
+}
