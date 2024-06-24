@@ -31,7 +31,7 @@ class Chatbox {
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
 
-         fetch('https://medical-chatbot-h5y5.onrender.com', {
+         fetch('https://medical-chatbot-h5y5.onrender.com/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
