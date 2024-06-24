@@ -198,3 +198,19 @@ body {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
+
+@media (max-width: 480px){
+    .chatbox__support{
+        width:300px ;
+        height: 450px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+    .chatbox__support{
+        width:500px ;
+        height:750px ;
+    } 
+}
