@@ -17,9 +17,30 @@
          "context_set": ""
         },
 
+        {
+         "tag": "Okay",
+         "patterns": ["Okay"],
+         "responses":["Great!"],
+         "context_set": ""
+        },
+
+        {
+         "tag": "",
+        "patterns": [""],
+        "responses":[""],
+        "context_set": ""
+        },
+
         {"tag": "evening",
          "patterns": ["Good evening"],
          "responses":["Good evening. How has your day been?"],
+         "context_set": ""
+        },
+
+        {
+         "tag": "Fine",
+         "patterns": ["I am fine","i am good", "I am alright", "alright", "fine", "okay"],
+         "responses":["I'm glad to hear it. Anything you'd like to talk about?", "Is there anything I can do to help?", "Sure you are", "Alright, cool."],
          "context_set": ""
         },
 
@@ -41,8 +62,18 @@
          "context_set": ""
         },
 
+        {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+       },
+
+       {"tag": "help",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+        "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
+        },
+
         {"tag": "creation",
-         "patterns": ["Who created you?", "How were you made?", "How were you created?"],
+         "patterns": ["Who created you?", "How were you made?", "How were you created?", "who are you?", "What are you"],
          "responses":["I was created by >.", "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques", "The real question is: Who created you?"],
          "context_set": ""
         },
@@ -73,8 +104,8 @@
 
 
         {"tag": "Appendicitis",
-         "patterns": ["How do i treat Appendicitis", "I have Appendicitis", "How do i cure "],
-         "responses":["Go for Surgery to remove the appendix","Use Antibiotics to treat the infection","USe Pain medication"],
+         "patterns": ["How do i treat Appendicitis", "I have Appendicitis", "How do i cure Appendicitis"],
+         "responses":["Go for Surgery to remove the appendix","Use Antibiotics to treat the infection","Use pain medication"],
          "context_set": ""
         },
 
@@ -224,16 +255,6 @@
          "patterns": ["Pregnancy symptoms", "Prenatal care", "What to eat during pregnancy", "Labor and delivery"],
          "responses": ["Pregnancy symptoms vary, but common signs include missed periods, morning sickness, fatigue, and breast tenderness. Prenatal care is crucial for a healthy pregnancy. Consult an OB-GYN for personalized guidance."]
         },
-
-        {"tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
-       },
-
-       {"tag": "help",
-    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
-    "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
-    },
 
         {"tag": "Cuts",
          "patterns": ["What to do if Cuts?", "How to cure Cuts?", "Which medicine to apply for Cuts?", "what to apply on cuts?", "Cuts"],
